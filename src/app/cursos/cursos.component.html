@@ -1,0 +1,9 @@
+<h3>Lista de cursos do portal {{ nomePortal}}</h3>
+
+<app-curso-detalhe></app-curso-detalhe>
+
+<ul>
+    <li *ngFor = "let curso of cursos">
+        {{curso}}
+    </li>
+</ul>
